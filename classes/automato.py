@@ -65,4 +65,6 @@ class Automato:
 
     def mostrar_tamanho_estados(self):
         print(len(self.estados))
+    def mostrar_aceitacao(self):
+        print(self.estados_aceitacao)
 
